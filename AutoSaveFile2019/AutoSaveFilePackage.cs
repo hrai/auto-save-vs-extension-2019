@@ -11,7 +11,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using AutoSaveFile2019;
 
-[assembly: InternalsVisibleTo("AutoSaveFileTests")]
+[assembly: InternalsVisibleTo("AutoSaveFile2019Tests")]
 namespace AutoSaveFile
 {
     /// <summary>
