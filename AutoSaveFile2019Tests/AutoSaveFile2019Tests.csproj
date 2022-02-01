@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="envdte, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\PublicAssemblies\envdte.dll</HintPath>
     </Reference>
     <Reference Include="FluentAssertions, Version=5.9.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentAssertions.5.9.0\lib\net47\FluentAssertions.dll</HintPath>
@@ -91,9 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutoSaveFile\AutoSaveFile.csproj">
+    <ProjectReference Include="..\AutoSaveFile2019\AutoSaveFile2019.csproj">
       <Project>{85220b04-873a-4859-ac56-62414e34df0a}</Project>
-      <Name>AutoSaveFile</Name>
+      <Name>AutoSaveFile2019</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

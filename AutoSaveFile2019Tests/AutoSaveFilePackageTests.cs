@@ -1,10 +1,10 @@
-﻿using AutoSaveFile;
+﻿using AutoSaveFile2019;
 using EnvDTE;
 using FluentAssertions;
 using Moq;
 using Xunit;
 
-namespace AutoSaveFileTests
+namespace AutoSaveFile2019Tests
 {
     public class HelperTests
     {
