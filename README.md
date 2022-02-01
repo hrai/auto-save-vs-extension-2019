@@ -1,4 +1,4 @@
-# auto-save-vs-extension
+# auto-save-vs-extension-2019
 
 A Visual Studio extension that automatically saves the file as you're working on it.
 
