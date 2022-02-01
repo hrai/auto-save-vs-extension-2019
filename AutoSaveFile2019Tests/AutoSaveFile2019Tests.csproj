@@ -11,8 +11,8 @@
     <ProjectGuid>{3630EE61-8A4D-4BBE-8FE3-9772EFC7FF9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AutoSaveFileTests</RootNamespace>
-    <AssemblyName>AutoSaveFileTests</AssemblyName>
+    <RootNamespace>AutoSaveFile2019Tests</RootNamespace>
+    <AssemblyName>AutoSaveFile2019Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="envdte, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\PublicAssemblies\envdte.dll</HintPath>
     </Reference>
     <Reference Include="FluentAssertions, Version=5.9.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentAssertions.5.9.0\lib\net47\FluentAssertions.dll</HintPath>
@@ -91,9 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutoSaveFile\AutoSaveFile.csproj">
+    <ProjectReference Include="..\AutoSaveFile2019\AutoSaveFile2019.csproj">
       <Project>{85220b04-873a-4859-ac56-62414e34df0a}</Project>
-      <Name>AutoSaveFile</Name>
+      <Name>AutoSaveFile2019</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

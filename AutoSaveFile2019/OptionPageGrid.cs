@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.Shell;
 using System.ComponentModel;
 
-namespace AutoSaveFile
+namespace AutoSaveFile2019
 {
     public class OptionPageGrid : DialogPage
     {

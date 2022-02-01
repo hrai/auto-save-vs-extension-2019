@@ -3,8 +3,8 @@ using EnvDTE;
 using System.Runtime.CompilerServices;
 using System.Linq;
 
-[assembly: InternalsVisibleTo("AutoSaveFileTests")]
-namespace AutoSaveFile
+[assembly: InternalsVisibleTo("AutoSaveFile2019Tests")]
+namespace AutoSaveFile2019
 {
     internal class Helper
     {
